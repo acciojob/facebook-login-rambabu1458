@@ -37,12 +37,12 @@ button{
 	padding ; 10px 20px ;
 }
 .signup{
-	background-color: 42b72a !important;
+	background-color: #42b72a;
 }
 a{
 	color: #1877f2;
 }
-img{
+.left img{
 	width:250px;
 }
 p{
