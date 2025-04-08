@@ -1,20 +1,22 @@
 /*  your css code here. If applicable */
 .container{
 	margin:0px;
-	padding:0px;
+	padding:10px;
 	overflow:hidden;
 	position:absolute;
 	display:flex;
 	align-items:center;
 	justify-content:center;
-	/* margin:200px auto; */
 	background-color: #f6f6f6;
-	height:100vh;
+	height:calc(100vh - 30px);
 }
 .left{
-	width:450px;
+	width:45%;
 	margin-top:70px;
 	display:inline-block;
+}
+.right{
+	margin-left: 20px;
 }
 form{
 	display:flex;
@@ -33,8 +35,10 @@ input{
 }
 button{
 	background-color: #1877f2; 
-	border-radius: 5px; 
-	padding ; 10px 20px ;
+	border:none;
+	padding:10px;
+	color:white;
+	border-radius:8px
 }
 .signup{
 	background-color: #42b72a;
